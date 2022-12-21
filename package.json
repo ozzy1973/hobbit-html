@@ -1,0 +1,9 @@
+{
+  "name": "gra-html",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "/index.html",
+  "dependencies": {},
+  "license": "CC-BY-NC-SA-2.0"
+}
