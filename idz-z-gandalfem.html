@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hobbit RPG</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="title-border">Hobbit RPG</h1>
+    <p>
+      Witaj w świecie Hobbita! Jesteś Bilbo Bagginsem i twoim zadaniem jest
+      pomóc Gandalfowi w jego podróży.
+    </p>
+    <div id="game">
+      <div id="location">
+        <h2>Idziesz za Gandalfem</h2>
+        <!-- wstaw obrazek z Gandalfem albo inny -->
+        <p>
+          Postanowiłeś ruszyć w podróz za Gandalfem
+          <!-- Tutaj jakiś dialog? -->
+        </p>
+        <!-- wstaw obrazek z Gandalfem albo inny -->
+        <h2>Dolina Rzeki</h2>
+        <p>
+          Ruszasz w podróż z Gandalfem. Wkrótce docieracie do Doliny Rzeki,
+          gdzie spotykacie wrogiego orka!
+        </p>
+        <!-- wstaw jakiś inny obrazek -->
+        <div id="enemies">
+          <div id="ork">
+            <img src="ork.jpg" alt="Ork" />
+            <p>Ork</p>
+            <ul>
+              <li>Życie: 75</li>
+              <li>Atak: 15</li>
+              <li>Obrona: 5</li>
+            </ul>
+          </div>
+        </div>
+        <a href="walka-ork.html">Walcz z orkiem</a>
+        <a href="ucieczka-ork.html">Uciekaj od orka</a>
+      </div>
+      <div id="character">
+        <img src="img/bilbo.png" alt="Bilbo Baggins" />
+        <p>Bilbo Baggins</p>
+        <ul>
+          <li class="gray-element">Życie: 100</li>
+          <li>Atak: 10</li>
+          <li class="gray-element">Obrona: 5</li>
+          <li>Charyzma: 10</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
