@@ -1,1 +1,3 @@
 # hobbit-html
+
+Opis projektu

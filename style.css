@@ -11,7 +11,7 @@ h1 {
 img {
   max-width: 100%;
   height: 400px;
-  border-radius: 10px;
+  border-radius: 200px;
 }
 
 ul {
@@ -41,7 +41,7 @@ a:hover {
 
 .title-border {
   border: solid 10px green;
-  border-radius: 10px;
+  border-radius: 50px 0 0 0;
   background-color: green;
   color: white;
 }
