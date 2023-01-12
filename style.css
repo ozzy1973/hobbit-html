@@ -23,25 +23,46 @@ li {
   margin: 10px;
 }
 
+li:hover {
+  background-color: violet;
+  text-shadow: grey;
+  text-emphasis: solid;
+}
+
 a {
   text-decoration: none;
   color: #333;
   background-color: #e6e6e6;
-  padding: 5px 10px;
-  border-radius: 20px;
+  padding: 15px 20px;
+  border-radius: 10px;
 }
 
 a:hover {
-  background-color: #ccccff;
+  background-color: cyan;
+  color: red;
+}
+
+.alarm {
+  background-color: red;
+}
+
+.alarm:hover {
+  background-color: yellow;
 }
 
 .gray-element {
   background-color: lightgrey;
 }
 
-.title-border {
-  border: solid 10px green;
-  border-radius: 50px 0 0 0;
-  background-color: green;
+.ramka-tytulowa {
+  border: solid 10px darkcyan;
+  padding: 20px 20px 20px 20px;
+  margin: 0px 0px 50px 0px;
+  border-radius: 50px 50px 50px 0;
+  background-color: blue;
   color: white;
+}
+
+.location {
+  background-color: lightgrey;
 }
